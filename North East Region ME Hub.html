@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+
+
+<head>
+<meta charset="UTF-8">
+  <title>North East Region ME Hub</title>
+<link rel="stylesheet" href="">
+</head>
+
+<body>
+
+<div class="Detalle">
+
+  <!-- MENÚ -->
+  <nav class="menu">
+  
+
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="banner">
+    <div class="banner-content">
+      
+      <!-- Logo -->
+      <div class="logo">
+        <img src="Versigent_TwoTone_White_Vertical@4x.png" alt="Versigent">
+        <span>ME HUB</span>
+      </div>
+
+      <!-- Texto derecho -->
+      <div class="region">
+      
+        <div class="central">North East Region</div>
+      </div>
+
+    </div>
+
+    <!-- Líneas decorativas -->
+    <div class="lines left"></div>
+    <div class="lines right"></div>
+
+  </header>
+
+
+  <section>
+
+
+</div>
+
+
+</head>
+<body>
+
+  <!-- Sección de Links de Acceso -->
+      <div class="Links">
+<ul style="list-style:none; display:flex; background:#CB9552; padding:0; ">
+  <li><a href="https://one.aptiv.com/content/page/69a729935c5ccb5067d9a04a" style="color:white; padding:15px; display:block;">Versigent</a></li>
+  <li><a href="http://azurnaw-db012.aptiv.com/MEManualPreplaneacion/Home/Index"target="_blank" style="color:white; padding:15px; display:block;">Manual de Preplaneación</a></li>
+</ul>
+ </div>
+  <section>
+
+
+
+  <!-- Acceso Links -->
+  
+  
+
+
+
+</section>
+
+<div class="tabs-container">
+
+  <!-- Pestañas -->
+  <div class="tabs">
+    <button class="tab active" onclick="openTab('tab-inicio', this)">Inicio</button>
+    <button class="tab" onclick="openTab('tab-Empaque', this)">Empaque</button>
+    <button class="tab" onclick="openTab('tab-PPAP', this)">PPAP</button>
+    <button class="tab" onclick="openTab('tab-config', this)">Configuración</button>
+  </div>
+
+  <!-- Contenido de pestañas -->
+  <div class="tab-content">
+
+    <div id="tab-inicio" class="tab-section active">
+      <h2>Inicio</h2>
+    
+<section class="accesos">
+  <section class="grid-imagenes">
+  <a href="https://myapplications.microsoft.com/"target="_blank" class="acceso">
+   <img src="myappslogo.png" alt="MyApps">
+    <span>MyApps</span>
+  </a>
+
+  <a href="https://wd5.myworkday.com/aptiv/d/home.htmld"target="_blank" class="acceso">
+     <img src="maxresdefault.jpg" alt="Workday">
+    <span>Workday</span>
+  </a>
+
+  <a href="https://aptivspco.service-now.com/sp"target="_blank" class="acceso">
+    <img src="ServiceNow-Logo.png" alt="Service Portal">
+    <span>Service Portal</span>
+  </a>
+  <a href="https://www.coursera.org/programs/cyprium-pyspi?authProvider=cyprium"target="_blank" class="acceso">
+    <img src="Coursera-Logo.png" alt="Coursera">
+    <span>Coursera</span>
+  </a>
+    </div>
+
+</section>
+    <div id="tab-Empaque" class="tab-section">
+      <h2>Empaque</h2>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Sistema de Captura</title>
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 350px 1fr 350px;
+  gap: 15px;
+  padding: 15px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.box {
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+h3 {
+  margin-top: 0;
+  color: #0b1f33;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 6px;
+}
+
+th {
+  background: #0b1f33;
+  color: white;
+}
+
+input, select {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+button {
+  padding: 6px 10px;
+  background: #d68b2c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+button:hover { background: #c2791f; }
+
+.btn-danger { background: #c0392b; }
+.btn-secondary { background: #7f8c8d; }
+
+.hidden { display: none; }
+</style>
+</head>
+
+<body>
+
+<div class="layout">
+
+<!-- ================= IZQUIERDA ================= -->
+<div class="column">
+
+  <!-- PLATAFORMAS -->
+  <div class="box">
+    <h3>Plataformas</h3>
+    <input id="platInput">
+    <button onclick="guardarPlataforma()">Guardar</button>
+    <button class="btn-secondary" onclick="platInput.value=''">Limpiar</button>
+
+    <table id="tablaPlataformas">
+      <thead>
+        <tr><th>#</th><th>Plataforma</th><th>✏</th><th>🗑</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <!-- INGENIEROS -->
+  <div class="box">
+    <h3>Ingenieros</h3>
+    <input id="ingInput">
+    <button onclick="guardarIngeniero()">Guardar</button>
+    <button class="btn-secondary" onclick="ingInput.value=''">Limpiar</button>
+    <button class="btn-secondary" onclick="toggleIngenieros()">Ocultar / Mostrar</button>
+
+    <table id="tablaIngenieros">
+      <thead>
+        <tr><th>#</th><th>Ingeniero</th><th>✏</th><th>🗑</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+</div>
+
+<!-- ================= CENTRO ================= -->
+<div class="box">
+
+<h3>Registro Final</h3>
+
+<table>
+<tr><td>Ingeniero</td><td><select id="fIngeniero"></select></td></tr>
+<tr><td>Plataforma</td><td><select id="fPlataforma"></select></td></tr>
+<tr><td>Código</td><td><select id="fCodigo"></select></td></tr>
+
+  <tr><td>Fase</td><td><select id="fFase"><option value=""></option>
+		  <option>Prototipos</option>
+		   <option>PTR</option>
+          <option>Pilotos (TT)</option>
+		   <option>Pilotos (PP)</option>
+		    <option>Pilotos (RC1)</option>
+			 <option>Pilotos (RC2)</option>
+          <option>Producción Regular (MP1)</option>
+		  <option>Producción Regular (MP2)</option>
+        </select>
+      </td>
+    </tr>
+
+<tr><td>Fecha</td><td><input type="date" id="ffecha"></td></tr>
+</table>
+
+<button onclick="guardarFinal()">Guardar Registro</button>
+<button class="btn-secondary" onclick="limpiarCaptura()">Limpiar Captura</button>
+<button class="btn-danger" onclick="limpiarFinal()">Limpiar Registros</button>
+
+<table id="tablaFinal">
+<thead>
+<tr>
+<th>#</th><th>Ingeniero</th><th>Plataforma</th>
+<th>Código</th><th>Fase</th><th>Fecha</th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+
+</div>
+
+<!-- ================= DERECHA ================= -->
+<div class="box">
+<h3>Códigos</h3>
+<input id="codInput">
+<button onclick="guardarCodigo()">Guardar</button>
+<button class="btn-secondary" onclick="codInput.value=''">Limpiar</button>
+
+<table id="tablaCodigos">
+<thead>
+<tr><th>#</th><th>Código</th><th>✏</th><th>🗑</th></tr>
+</thead>
+<tbody></tbody>
+</table>
+</div>
+
+</div>
+
+<script>
+let plataformas = JSON.parse(localStorage.getItem("plataformas")) || [];
+let codigos = JSON.parse(localStorage.getItem("codigos")) || [];
+let ingenieros = JSON.parse(localStorage.getItem("ingenieros")) || [];
+let finales = JSON.parse(localStorage.getItem("finales")) || [];
+
+let editPlat=null, editCod=null, editIng=null;
+
+function saveAll() {
+  localStorage.setItem("plataformas", JSON.stringify(plataformas));
+  localStorage.setItem("codigos", JSON.stringify(codigos));
+  localStorage.setItem("ingenieros", JSON.stringify(ingenieros));
+  localStorage.setItem("finales", JSON.stringify(finales));
+  renderAll();
+}
+
+function renderAll() {
+  renderPlataformas();
+  renderCodigos();
+  renderIngenieros();
+  renderFinal();
+  fillSelects();
+}
+
+/* ========= PLATAFORMAS ========= */
+function guardarPlataforma() {
+  if (!platInput.value) return;
+  editPlat!==null ? plataformas[editPlat]=platInput.value : plataformas.push(platInput.value);
+  editPlat=null; platInput.value="";
+  saveAll();
+}
+function renderPlataformas() {
+  const tb=tablaPlataformas.querySelector("tbody"); tb.innerHTML="";
+  plataformas.forEach((p,i)=>{
+    const r=tb.insertRow();
+    r.insertCell().textContent=i+1;
+    r.insertCell().textContent=p;
+    r.insertCell().innerHTML=`<button onclick="editPlat=${i};platInput.value='${p}'">✏</button>`;
+    r.insertCell().innerHTML=`<button class="btn-danger" onclick="plataformas.splice(${i},1);saveAll()">🗑</button>`;
+  });
+}
+
+/* ========= CÓDIGOS ========= */
+function guardarCodigo() {
+  if (!codInput.value) return;
+  editCod!==null ? codigos[editCod]=codInput.value : codigos.push(codInput.value);
+  editCod=null; codInput.value="";
+  saveAll();
+}
+function renderCodigos() {
+  const tb=tablaCodigos.querySelector("tbody"); tb.innerHTML="";
+  codigos.forEach((c,i)=>{
+    const r=tb.insertRow();
+    r.insertCell().textContent=i+1;
+    r.insertCell().textContent=c;
+    r.insertCell().innerHTML=`<button onclick="editCod=${i};codInput.value='${c}'">✏</button>`;
+    r.insertCell().innerHTML=`<button class="btn-danger" onclick="codigos.splice(${i},1);saveAll()">🗑</button>`;
+  });
+}
+
+/* ========= INGENIEROS ========= */
+function guardarIngeniero() {
+  if (!ingInput.value) return;
+  editIng!==null ? ingenieros[editIng]=ingInput.value : ingenieros.push(ingInput.value);
+  editIng=null; ingInput.value="";
+  saveAll();
+}
+function renderIngenieros() {
+  const tb=tablaIngenieros.querySelector("tbody"); tb.innerHTML="";
+  ingenieros.forEach((n,i)=>{
+    const r=tb.insertRow();
+    r.insertCell().textContent=i+1;
+    r.insertCell().textContent=n;
+    r.insertCell().innerHTML=`<button onclick="editIng=${i};ingInput.value='${n}'">✏</button>`;
+    r.insertCell().innerHTML=`<button class="btn-danger" onclick="ingenieros.splice(${i},1);saveAll()">🗑</button>`;
+  });
+}
+function toggleIngenieros() {
+  tablaIngenieros.classList.toggle("hidden");
+}
+
+/* ========= FINAL ========= */
+function guardarFinal() {
+  if(!fIngeniero.value || !fPlataforma.value || !fCodigo.value| !ffecha.value) {
+    alert("Seleccione Ingeniero, Plataforma, Código, Fecha");
+    return;
+  }
+  finales.push({
+    ingeniero:fIngeniero.value,
+    plataforma:fPlataforma.value,
+    codigo:fCodigo.value,
+    fase:fFase.value,
+    fecha:ffecha.value
+	
+  });
+  saveAll();
+}
+function renderFinal() {
+  const tb=tablaFinal.querySelector("tbody"); tb.innerHTML="";
+  finales.forEach((f,i)=>{
+    const r=tb.insertRow();
+    r.insertCell().textContent=i+1;
+    Object.values(f).forEach(v=>r.insertCell().textContent=v);
+  });
+}
+function limpiarFinal() {
+  if(confirm("¿Eliminar todos los registros?")){
+    finales=[];
+    saveAll();
+  }
+}
+function limpiarCaptura() {
+  fIngeniero.value="";
+  fPlataforma.value="";
+  fCodigo.value="";
+  fFase.value="";
+  ffecha.value="";
+}
+
+/* ========= SELECTS (PRIMER VALOR VACÍO) ========= */
+function fillSelects() {
+  fill(fPlataforma, plataformas);
+  fill(fCodigo, codigos);
+  fill(fIngeniero, ingenieros);
+    fill(fFase, fase);
+}
+function fill(sel,data){
+  sel.innerHTML = `<option value=""></option>`;
+  [...new Set(data)].forEach(d=>{
+    const o=document.createElement("option");
+    o.value = d;
+    o.textContent=d;
+    sel.appendChild(o);
+  });
+}
+
+document.addEventListener("DOMContentLoaded", renderAll);
+</script>
+
+</body>
+</html>
+
+</section>
+
+
+    <div id="tab-PPAP" class="tab-section">
+      <h2>PPAP</h2>
+      <p>Gráficas, reportes y estadísticas.</p>
+    </div>
+
+    <div id="tab-config" class="tab-section">
+      <h2>Configuración</h2>
+      <p>Ajustes del sistema.</p>
+    </div>
+
+  </div>
+
+</div>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: AEONIK , Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+
+.banner {
+  position: relative;
+  height: 140px;
+  background: linear-gradient(90deg, #16283f, #122a45);
+  overflow: hidden;
+}
+
+.banner-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 60px;
+  position: relative;
+  z-index: 2;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.links {
+font-family: AEONIK , Helvetica, sans-serif;
+
+}
+.logo img {
+  height:100px;
+}
+
+.logo span {
+ font-family: AEONIK , Helvetica, sans-serif;
+  color: white;
+  font-size: 55px;
+  font-weight: 550;
+}
+``
+.region {
+  text-align: right;
+  color: white;
+}
+
+.region .me {
+  font-size: 24px;
+  font-weight: bold;
+    color: white;
+}
+
+.region .central {
+  font-size: 28px;
+  font-weight: bold;
+    color: white;
+}
+
+.lines {
+  position: absolute;
+  width: 5000px;
+  height: 200px;
+  border: 2px solid #d88d2b;
+  border-color: #CD7925 transparent transparent transparent;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+
+/* Izquierda */
+.lines.left {
+  top: -80px;
+  left: -150px;
+}
+
+/* Derecha */
+.lines.right {
+  top: -60px;
+  right: -120px;
+  transform: rotate(180deg);
+}
+``
+
+<style>
+body {
+  font-family:AEONIK, Helvetica, sans-serif;
+  background: #f4f6f8;
+  padding: 30px;
+}
+
+/* CONTENEDOR */
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+/* TÍTULOS */
+h2 {
+  margin-bottom: 15px;
+  color: #0b1f33;
+}
+
+/* TABLAS */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 25px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+th {
+  background-color: #0b1f33;
+  color: white;
+  text-align: left;
+}
+
+/* INPUTS */
+input, select {
+  width: 100%;
+  padding: 6px;
+}
+
+/* BOTÓN */
+button {
+  background: #d68b2c;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #c2791f;
+}
+
+  <!-- Link de accesos -->
+
+.seccion-accesos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.acceso {
+  text-align: left;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  color: #1f2933;
+}
+
+.acceso img {
+  width: 150%;
+  max-width: 200px;
+  height: auto;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.grid-imagenes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+  gap: 30px;
+}
+
+.grid-imagenes img {
+  width: 150%;
+  height: 150;
+  object-fit: cover;
+}
+
+.acceso span {
+
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Efecto al pasar el mouse */
+.acceso:hover img {
+  transform: scale(1.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+  <!-- columna con links -->
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f8;
+  padding: 20px;
+}
+
+/* CONTENEDOR */
+.tabs-container {
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* BARRA DE PESTAÑAS */
+.tabs {
+  display: flex;
+  border-bottom: 3px solid #d68b2c;
+}
+
+.tab {
+  padding: 12px 20px;
+  background: transparent;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  color: #0b1f33;
+}
+
+.tab.active {
+  background-color: #d68b2c;
+  color: white;
+}
+
+/* CONTENIDO */
+.tab-content {
+  padding: 20px;
+}
+
+.tab-section {
+  display: none;
+}
+
+.tab-section.active {
+  display: block;
+}
+</style>
+
+  </style>
+</head>
+<body>
+
+<script>
+function openTab(tabId, element) {
+
+  // Ocultar todos los contenidos
+  const sections = document.querySelectorAll('.tab-section');
+  sections.forEach(section => section.classList.remove('active'));
+
+  // Quitar activo a todas las pestañas
+  const tabs = document.querySelectorAll('.tab');
+  tabs.forEach(tab => tab.classList.remove('active'));
+
+  // Mostrar pestaña seleccionada
+  document.getElementById(tabId).classList.add('active');
+  element.classList.add('active');
+}
+</script>
